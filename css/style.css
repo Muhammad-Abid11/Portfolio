@@ -1,0 +1,135 @@
+body{
+    color: rgb(65, 61, 61) !important;
+}
+
+.navbar {
+    background-color: white !important;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    top: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar a:after {
+    content: "";
+    position: absolute;
+    background-color: #c00;
+    height: 2px;
+    width: 0%;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    transition: .35s ease;
+}
+
+.navbar a:hover:after {
+    width: 100%;
+}
+
+
+#title{
+    width: 50%;
+    text-align: center;
+    font-size: 3em !important;
+    margin: auto;
+}
+#img{
+    width: 50%;
+}
+
+h1 hr{
+    background-color: rgb(7, 161, 40);
+    width: 10%;
+    margin: auto;
+}
+h4 hr{
+    background-color: rgb(7, 161, 40);
+    width:25%;
+
+}
+
+#text {
+    width: 50%;
+    /* background-color: #c00; */
+    justify-content: center;
+    font-size: 1.3em !important;
+    margin: auto;
+}
+#img_pic{
+    padding-left: 10%;
+    /* background-color: blue; */
+    width: 50%;
+}
+#box_html{
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(199, 93, 93);
+    width: 80%;
+    height: 30px;
+}
+#box_css{
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(53, 180, 189);
+    width: 70%;
+    height: 30px;
+}
+#box_js{
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(150, 138, 28);
+    width: 70%;
+    height: 30px;
+}
+#box_react{
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(53, 180, 189);
+    width: 30%;
+    height: 30px;
+}
+
+#follow{
+    width: 30%;
+    /* background-color: #c00; */
+}
+#query{
+    width: 60%;
+    height: 35em;
+}
+.quer{
+    text-align: center;
+    font-size: 1.3em;
+}
+h1.quer hr{
+    background-color: rgb(7, 161, 40);
+        width: 35%;
+}
+input,textarea {
+    border-color: rgb(7, 161, 40);
+    /* border: none !important; */
+    width: 87%;
+}
+h5{
+    text-align: center;
+}
+input:focus {
+    border-radius: 1px;
+}
+@media only screen and (max-width: 770px) {
+    #text{
+    font-size: 0.8em !important;
+    }
+}
