@@ -118,15 +118,33 @@ h1.quer hr{
         width: 35%;
 }
 input,textarea {
-    border-color: rgb(7, 161, 40);
+    border-color: rgb(90, 143, 102);
     /* border: none !important; */
     width: 87%;
 }
 h5{
     text-align: center;
 }
+/* .send {
+    color: black;
+    border-radius: 10px !important;
+} */
+
+.sendBtn {
+    /* font-size: 15px; */
+    /* border: 10px !important; */
+    border-color: #000;
+    border-radius: 5px;
+}
 input:focus {
     border-radius: 1px;
+}
+a{
+    color: rgb(65, 61, 61) !important;
+    text-decoration: none;
+}
+a:hover{
+    color: royalblue !important;
 }
 @media only screen and (max-width: 770px) {
     #text{
